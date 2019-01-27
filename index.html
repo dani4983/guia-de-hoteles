@@ -25,7 +25,7 @@
     <nav id="nave" class="navbar navbar-expand-lg navbar-fixed-top navbar-dark" style="background-color: transparent;">
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler" id="burger">&#9776;</span>
         </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
@@ -55,10 +55,10 @@
                 <div class="modal-body">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xs-12 col-md-6">
+                            <div class="col-12 col-md-6">
                                 <div class="card w-100">
                                     <div class="card-body">
-                                        <h5 class="card-title">Inicia sesión con una red social</h5>
+                                        <h5 class="card-title" id="exampleModalLabel">Inicia sesión con una red social</h5>
                                         
                                         <a href="#" class="btn btn-primary btn-block"><i class="fab fa-facebook-f mr-3"></i> facebook</a>
                                         <a href="#" class="btn btn-white btn-block"><img src="./img/icon-google.png" style="width: 10%" alt=""> Inicia sesión con Google+</a>
@@ -68,7 +68,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-md-6">
+                            <div class="col-12 col-md-6">
                                 <form>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Registrate con tu e-mail</label>
@@ -106,9 +106,9 @@
         <!--contenido DE HEADER-->>
         <div class="container-fluid">
             <div class="row mt-5">
-                <div class="col-2"></div>
-                <div class="col-8 justify-content-center text-center text-white  mt-5">
-                        <h1><img src="./img/logo.png" style="width:75%" alt=""></h1>
+                <div class="col-12">
+                    <div class="container contenedor text-center text-white align-middle">
+                        <h1><img src="./img/logo.png" style="width:60%" alt="logo"></h1>
                         <h3><b>Encontrá tu hotel ideal y compará precios</b></h3>
                         <h3><b>Busque su destino</b></h3>
                     <div class="input-group align-self-center mb-3">
@@ -121,7 +121,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-2"></div>
+                </div>
             </div>
         </div>
     </header><br>
@@ -208,7 +208,7 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-12 col-sm-6">
                     <h4>Mas ciudades destacadas</h4>
                     <div style="
                         color : #000000;
@@ -217,7 +217,7 @@
                         overflow : auto;
                         overflow-x: hidden; ">
                         <div class="row">
-                            <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <ul class="list-unstyled">
                                     <li><a href="#">Puerto Iguazú</a></li>
                                     <li><a href="#">Rosario</a></li>
@@ -236,7 +236,7 @@
                                     <li><a href="#">Venecia</a></li>
                                 </ul>
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <ul class="list-unstyled">
                                     <li><a href="#">Puerto Madryn</a></li>
                                     <li><a href="#">Salta Capital</a></li>
@@ -254,7 +254,7 @@
                                     <li><a href="#">Paris</a></li>
                                 </ul>
                             </div>
-                            <div class="col-sm-12 col-md-6 col-lg-4">
+                            <div class="col-12 col-md-6 col-lg-4">
                                 <ul class="list-unstyled">
                                     <li><a href="#">Punta de Este</a></li>
                                     <li><a href="#">San Carlos de Bariloche</a></li>
@@ -275,7 +275,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6">
+                <div class="col-12 col-sm-6">
                         <h4><img src="./img/logo.png" style="width: 20%" alt="logo"> Internacional</h4>
                         <div style="
                             color : #000000;
@@ -284,7 +284,7 @@
                             overflow : auto;
                             overflow-x: hidden; ">
                             <div class="row">
-                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="col-12 col-md-6 col-lg-4">
                                     <ul class="list-unstyled">
                                         <li><a href="#"><img src="./img/logo.png" style="width: 40%" alt=""> Argentina</a></li>
                                         <li><a href="#"><img src="./img/logo.png" style="width: 40%" alt=""> Australia</a></li>
@@ -303,7 +303,7 @@
                                         <li><a href="#"><img src="./img/logo.png" style="width: 40%" alt=""> 한국</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="col-12 col-md-6 col-lg-4">
                                     <ul class="list-unstyled">
                                         <li><a href="#"><img src="./img/logo.png" style="width: 40%" alt=""> Hrvatska</a></li>
                                         <li><a href="#"><img src="./img/logo.png" style="width: 40%" alt=""> India</a></li>
@@ -321,7 +321,7 @@
                                         <li><a href="#"><img src="./img/logo.png" style="width: 40%" alt=""> Paris</a></li>
                                     </ul>
                                 </div>
-                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="col-12 col-md-6 col-lg-4">
                                     <ul class="list-unstyled">
                                         <li><a href="#"><img src="./img/logo.png" style="width: 40%" alt=""> Perú</a></li>
                                         <li><a href="#"><img src="./img/logo.png" style="width: 40%" alt=""> Philippines</a></li>
@@ -344,7 +344,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        
     </section><br><br><br>
 
     <!--Fin de overflow--> 
@@ -486,8 +486,15 @@
         <div class="container-fluid text-center">
             <div class="row">
                 <div class="col-12">
-                    <h6><img src="./img/logo.png" style="width: 30%" alt=""></h6>
-                    <p>&copy; Copyright 2018 <img src="./img/logo.png" style="width: 8%"> | Todos los derechos reservados</p>
+                    <h6><img src="./img/logo.png" style="width: 30%" alt="logo"></h6>
+                    <p>&copy; Copyright 2018 <img src="./img/logo.png" style="width: 8%" alt="logo"> | Todos los derechos reservados</p>
+                    <p>
+                            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                                <img style="border:0;width:88px;height:31px"
+                                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                                    alt="¡CSS Válido!" />
+                            </a>
+                        </p>
                 </div>
             </div>
         </div>
